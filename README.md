@@ -13,3 +13,7 @@ Then install galactica with the right torch + cuda version
 ```sh
 pip install galai torch==1.10.0+cu111 -f https://download.pytorch.org/whl/cu111/torch_stable.html --no-cache-dir
 ```
+
+# Hardware
+
+Results were obtained using 8x A100 GPUs hardware setup
